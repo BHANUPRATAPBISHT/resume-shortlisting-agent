@@ -1,0 +1,10 @@
+This project is an AI-powered resume shortlisting agent.
+
+It takes a resume and job description as input and evaluates the match based on skills, experience, education, and projects.
+
+A keyword-based matching algorithm calculates the match percentage. If the match is 70% or more, the candidate is shortlisted; otherwise, rejected.
+
+Additionally, the system uses an OpenAI model with a prompt template to generate a human-readable explanation.
+ If the API is unavailable, a fallback explanation is provided.
+
+The output is returned in JSON format with decision, match percentage, and reasoning.

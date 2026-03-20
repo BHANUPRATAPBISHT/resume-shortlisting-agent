@@ -1,0 +1,9 @@
+Test Case 1:default
+Resume: Python SQL HTML
+JD: Python SQL HTML Developer
+Output: Shortlisted
+
+Test Case 2: own
+Resume: Java C++
+JD: Python Developer
+Output: Rejected
