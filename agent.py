@@ -5,7 +5,7 @@ from openai import OpenAI
 
 # 🔑 put your NEW API key here (inside quotes)
 # NOTE: if you get quota errors, you can still use the local match percentage.
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="your_open_ai_key")
 
 
 def _normalize_text(text: str) -> set[str]:
